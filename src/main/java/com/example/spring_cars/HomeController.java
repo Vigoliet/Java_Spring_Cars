@@ -16,7 +16,7 @@ public class HomeController {
         // Connect to the db
         Database db = new Database();
 
-        // Get all cars from databse
+        // Get all cars from database
         List<Car> cars = db.getCars();
 
         // Send cars to template
